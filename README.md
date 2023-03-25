@@ -27,7 +27,12 @@ does not work on Windows.
 The first time you save a blend file, a subfolder named backup.blend is created in the directory containing the blend file. 
 After the second save, blend1, blend2... will be saved in that folder.
 
+Using `blender_move_backup_save_files_to_a_sub_directory.py`, create a subfolder named backup.blend.
+Using `blender_move_backup_save_files_to_a_sub_directory.py2`, create a subfolder named <blend-file-name>_backup.blend.
+
 Change how many backup files are created in Edit > Preferences > Save & Load > Save Versions.
+
+
 
 
 ## Thanks for "Jonathan Stroem" and "Paul Mohr"
